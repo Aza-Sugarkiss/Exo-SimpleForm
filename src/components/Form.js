@@ -63,7 +63,7 @@ const Form = ({
           }}
         />
         <br />
-        <input className="register" type="submit" value={"Register"} />
+        <input className="register" type="submit-button" value={"Register"} />
       </form>
       {setformulaire === true ? <StepTwo /> : ""}
     </div>

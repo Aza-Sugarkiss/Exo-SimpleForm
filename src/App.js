@@ -22,7 +22,7 @@ function App() {
         passwordValue={password}
         setConfirmpassword={setConfirmpassword}
         confirmpasswordValue={confirmpassword}
-        formulaireValue={formulaire}
+        formulaire={formulaire}
         setformulaire={setformulaire}
       ></Form>
       <Footer />

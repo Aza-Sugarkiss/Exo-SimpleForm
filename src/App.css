@@ -16,30 +16,36 @@ p {
 }
 
 input {
-  width: 17vw;
-  height: 4.5vh;
+  width: 300px;
+  height: 45px;
   border-radius: 5px;
   margin-bottom: 15px;
   padding-left: 10px;
-  border: 1px solid #cecece;
-  background-color: snow;
+  border: 1px solid #d3d3d3;
+  background-color: #fcf9f9;
   font-size: 14px;
 }
 
 .register {
-  margin-top: 40px;
-  width: 17.8vw;
-  height: 5vh;
-  background-color: #574dcc;
+  text-align: center;
+  margin-top: 30px;
+  width: 300px;
+  height: 45px;
+  background-color: #5c47d3;
   color: white;
-  border: none;
+  border: 1px solid #5c47d3;
   font-weight: 700;
   font-size: 15px;
+}
+
+.register:hover {
+  cursor: pointer;
 }
 
 .footer {
   margin-top: 100px;
   text-align: center;
+  font-size: 16px;
   display: flex;
   justify-content: space-between;
 }
